@@ -16,7 +16,7 @@ A multi-agent pipeline that ingests research papers (PDF), summarizes them, clas
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 research_engine/
 ├── agents/
@@ -33,3 +33,11 @@ research_engine/
 ├── requirements.txt
 └── Dockerfile
 ```
+---
+
+## Technologies Used
+- PyMuPDF (fitz) – PDF Text Extraction
+- HuggingFace Transformers – Text Summarization (facebook/bart-large-cnn)
+- Sentence-BERT – Topic Classification
+- gTTS – Audio Generation
+- JSON – Metadata Storage
