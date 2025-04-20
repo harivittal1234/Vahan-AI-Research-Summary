@@ -17,6 +17,7 @@ A multi-agent pipeline that ingests research papers (PDF), summarizes them, clas
 ---
 
 ## 📁 Folder Structure
+```
 research_engine/
 ├── agents/
 │   ├── ingestion_agent.py
@@ -31,3 +32,4 @@ research_engine/
 ├── main.py
 ├── requirements.txt
 └── Dockerfile
+```
