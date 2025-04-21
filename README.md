@@ -31,7 +31,7 @@ research_engine/
 ├── results/
 ├── main.py
 ├── requirements.txt
-└── Dockerfile
+└── DockerFile
 ```
 ---
 
@@ -41,3 +41,26 @@ research_engine/
 - Sentence-BERT – Topic Classification
 - gTTS – Audio Generation
 - JSON – Metadata Storage
+
+
+---
+
+## Setup Instructions
+
+### Option 1: Local Setup Using Python
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+### Option 2: Use Docker
+
+- Build the image
+```bash 
+docker build -t summarizer .
+```
+- Run the Container
+```bash
+docker run summarizer
+```
