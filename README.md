@@ -31,7 +31,7 @@ research_engine/
 ├── results/
 ├── main.py
 ├── requirements.txt
-└── DockerFile
+└── Dockerfile
 ```
 ---
 
