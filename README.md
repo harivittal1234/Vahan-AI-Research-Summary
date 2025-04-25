@@ -16,6 +16,11 @@ A multi-agent pipeline that ingests research papers (PDF), summarizes them, clas
 
 ---
 
+## Working
+Uses Sentence transformers to extract and process the text data
+
+---
+
 ## Folder Structure
 ```
 research_engine/
